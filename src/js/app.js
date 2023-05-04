@@ -21,8 +21,6 @@ async function getData() {
         let htmlSegment = `<div>
         <h2>${slicedData.id}</h2>
         <h2>${slicedData.Jobtitle}</h2>
-
-
         </div>`;
         html += htmlSegment
        });
